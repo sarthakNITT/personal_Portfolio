@@ -1,0 +1,53 @@
+.HeaderMain{
+    background-color: #d6d5d5a1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.HeaderMain, .HeaderMain div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#HeaderName{
+    font-size: 22px;
+    font-family: cursive;
+}
+.HeaderNavigationBar{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: transform 0.3 ease;
+    width: 17%;
+}
+.HeaderNavigationBar div:hover{
+    transform: scale(1.2);
+    transition: 300ms;
+    cursor: pointer;
+}
+.HeaderContactText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.HeaderContactText:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 300ms;
+    background-color: black;
+    color: white;
+}
+.HeaderIcon:hover{
+    transition: 300ms;
+    cursor: pointer;
+}
+.HeaderContactBar{
+    width: 10%;
+}
